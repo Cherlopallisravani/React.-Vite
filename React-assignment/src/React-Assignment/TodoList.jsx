@@ -88,7 +88,7 @@ class Todolist extends Component {
                   placeholder="Edit your task"
                   value={currentValue}
                   onChange={this.onEditInputChange}
-                  className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className=" flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <button
                   type="submit"
@@ -110,7 +110,7 @@ class Todolist extends Component {
                 /><br></br>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-blue-600 text-black rounded-lg hover:bg-blue-700 transition-colors"
+                  className=" btn btn-primary px-4 py-2 bg-blue-600 text-black rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   Add
                 </button>
