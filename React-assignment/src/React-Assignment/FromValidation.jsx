@@ -7,10 +7,10 @@ const FormValidation = () => {
   const validate = () => {
     let tempErrors = {};
 
-    if (!formData.firstName.length <=3)  {
+    if (formData.firstName.length <3)  {
         tempErrors.firstName = "firstName should have atlist 3 char";
       }
-      if (!formData.lastName.length <=2) {
+      if (formData.lastName.length <2) {
         tempErrors.lastName = " lastName should have atlist 2 char";
       }
     if (!formData.email.includes("@")) {
