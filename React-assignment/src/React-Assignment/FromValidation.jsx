@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-export class ContactUS extends Component {
+export class Validation extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -150,4 +150,4 @@ export class ContactUS extends Component {
   }
 }
 
-export default ContactUS;
+export default Validation;
