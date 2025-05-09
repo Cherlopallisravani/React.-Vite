@@ -1,21 +1,26 @@
 
 import './App.css'
- import FormValidation from '/React-Assignment/FromValidation'
- import TodoList from './React-Assignment/TodoList'
- import DynamicButton from './React-Assignment/DynamicButton'
- import Props from '.React-Assignment/Props'
- function App() {
+import Validation from './Assignment-1/FromValidation'
+import Todolist from'./Assignment-1/TodoList'
+import Props from './Assignment-1/Props'
+import DynamicButton from './Assignment-1/DynamicButton'
+import Todolistlist from './Assignment-2/Todolistlist'
+import Bpp from './Assignment-2/Bpp'
 
-   return (
-    
-      <div className='App'>
-       
- <FormValidation/>
-  <TodoList/>
-<DynamicButton/>
-   <Props/>
-       </div>
-         )
-        }
+function App() {
+  return (
+<div className='App'>
 
-export default App
+{/* <Todolistlist/> */}
+<Bpp/>
+{/* <Todolist/>
+<Validation/>
+<Props/>
+<DynamicButton/> */}
+</div>
+
+
+  )
+}
+
+export default App;
